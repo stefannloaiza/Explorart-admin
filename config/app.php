@@ -1,5 +1,4 @@
 <?php
-
 return [
 
     /*
@@ -65,7 +64,7 @@ return [
     |
     */
 
-    'timezone' => 'UTC',
+    'timezone' => '	America/Bogota',
 
     /*
     |--------------------------------------------------------------------------
@@ -78,7 +77,7 @@ return [
     |
     */
 
-    'locale' => 'en',
+    'locale' => 'es',
 
     /*
     |--------------------------------------------------------------------------
@@ -154,12 +153,16 @@ return [
         /*
          * Application Service Providers...
          */
-        App\Providers\AppServiceProvider::class,
-        App\Providers\AuthServiceProvider::class,
-        // App\Providers\BroadcastServiceProvider::class,
-        App\Providers\EventServiceProvider::class,
-        App\Providers\RouteServiceProvider::class,
+        Explorart\Providers\AppServiceProvider::class,
+        Explorart\Providers\AuthServiceProvider::class,
+        // Explorart\Providers\BroadcastServiceProvider::class,
+        Explorart\Providers\EventServiceProvider::class,
+        Explorart\Providers\RouteServiceProvider::class,
 
+        /*
+         * Others Providers...
+         */
+        Yajra\Oci8\Oci8ServiceProvider::class,
     ],
 
     /*
