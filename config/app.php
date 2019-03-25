@@ -162,7 +162,7 @@ return [
         /*
          * Others Providers...
          */
-        Yajra\Oci8\Oci8ServiceProvider::class,
+        // Yajra\Oci8\Oci8ServiceProvider::class,
     ],
 
     /*
