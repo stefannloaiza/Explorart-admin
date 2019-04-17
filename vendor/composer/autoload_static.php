@@ -527,6 +527,7 @@ class ComposerStaticInit227a9762c7cd3e04a804dc812294cac6
         'Egulias\\EmailValidator\\Warning\\QuotedString' => __DIR__ . '/..' . '/egulias/email-validator/EmailValidator/Warning/QuotedString.php',
         'Egulias\\EmailValidator\\Warning\\TLD' => __DIR__ . '/..' . '/egulias/email-validator/EmailValidator/Warning/TLD.php',
         'Egulias\\EmailValidator\\Warning\\Warning' => __DIR__ . '/..' . '/egulias/email-validator/EmailValidator/Warning/Warning.php',
+        'Explorart\\Cabañas' => __DIR__ . '/../..' . '/app/Cabañas.php',
         'Explorart\\Console\\Kernel' => __DIR__ . '/../..' . '/app/Console/Kernel.php',
         'Explorart\\Exceptions\\Handler' => __DIR__ . '/../..' . '/app/Exceptions/Handler.php',
         'Explorart\\Http\\Controllers\\Auth\\ForgotPasswordController' => __DIR__ . '/../..' . '/app/Http/Controllers/Auth/ForgotPasswordController.php',

@@ -18,3 +18,8 @@ Route::get('/', function () {
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
+
+Route::get('/Cabañas_y_Hotel', function () {
+    return "Pero No llore, chupelo";
+
+});

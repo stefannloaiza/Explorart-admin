@@ -166,6 +166,7 @@ return array(
     'Egulias\\EmailValidator\\Warning\\QuotedString' => $vendorDir . '/egulias/email-validator/EmailValidator/Warning/QuotedString.php',
     'Egulias\\EmailValidator\\Warning\\TLD' => $vendorDir . '/egulias/email-validator/EmailValidator/Warning/TLD.php',
     'Egulias\\EmailValidator\\Warning\\Warning' => $vendorDir . '/egulias/email-validator/EmailValidator/Warning/Warning.php',
+    'Explorart\\Cabañas' => $baseDir . '/app/Cabañas.php',
     'Explorart\\Console\\Kernel' => $baseDir . '/app/Console/Kernel.php',
     'Explorart\\Exceptions\\Handler' => $baseDir . '/app/Exceptions/Handler.php',
     'Explorart\\Http\\Controllers\\Auth\\ForgotPasswordController' => $baseDir . '/app/Http/Controllers/Auth/ForgotPasswordController.php',
