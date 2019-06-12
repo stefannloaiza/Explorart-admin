@@ -11,15 +11,26 @@
 |
 */
 
+Auth::routes();
+
+
+
 Route::get('/', function () {
     return view('welcome');
 });
-
-Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
 
 Route::get('/Cabañas_y_Hotel', function () {
     return "Pero No llore, chupelo";
 
+});
+
+Route::get('foo', function () {
+    return 'Hello World';
+});
+
+
+Route::get('test', function () {
+    return view('test.index');
 });
